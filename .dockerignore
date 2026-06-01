@@ -1,0 +1,13 @@
+.git
+.gitignore
+.dockerignore
+*.md
+docs/
+tests/
+.vscode
+.DS_Store
+*.swp
+*.swo
+*~
+*.tar.gz
+/goboxd
