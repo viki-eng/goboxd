@@ -19,10 +19,9 @@ Language registration for this Stage 1 build is in [internal/language.go](intern
 
 Docker is the supported way to run the service.
 
-```bash
-make build
-make run
-```
+docker run --privileged -p 8080:8080 \
+  -e JAIL_DIR=/var/run/goboxd-jail \
+  goboxd:dev
 
 The service listens on `http://localhost:8080`.
 
