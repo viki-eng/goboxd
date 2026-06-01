@@ -1,5 +1,5 @@
 ================================================================================
-goboxd API Test Results – 2026-06-01 23:14:18
+goboxd API Test Results – 2026-06-01 23:33:27
 ================================================================================
 
 
@@ -14,7 +14,7 @@ Status Code: 200
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:18 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:28 GMT",
   "Content-Length": "16"
 }
 Response Body (JSON):
@@ -35,7 +35,7 @@ Status Code: 200
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:18 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:29 GMT",
   "Content-Length": "383"
 }
 Response Body (JSON):
@@ -70,8 +70,8 @@ Status Code: 200
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:18 GMT",
-  "Content-Length": "882"
+  "Date": "Mon, 01 Jun 2026 18:03:29 GMT",
+  "Content-Length": "883"
 }
 Response Body (JSON):
 {
@@ -113,9 +113,9 @@ Response Body (JSON):
   },
   "stats": {
     "in_flight_jobs": 0,
-    "jobs_total": 11,
-    "jobs_failed_internal": 4,
-    "last_internal_error_at": "2026-06-01T17:42:45.68198657Z",
+    "jobs_total": 18,
+    "jobs_failed_internal": 8,
+    "last_internal_error_at": "2026-06-01T17:44:21.004963579Z",
     "disk_free_bytes_jail_dir": 107374182400
   }
 }
@@ -144,7 +144,7 @@ Status Code: 200
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:19 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:29 GMT",
   "Content-Length": "503"
 }
 Response Body (JSON):
@@ -160,8 +160,8 @@ Response Body (JSON):
     {
       "status": "accepted",
       "stdout": "Hello, World!\n",
-      "stderr": "[W][2026-06-01T17:44:18+0000][71] logParams():313 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files\n[W][2026-06-01T17:44:18+0000][71] logParams():323 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files\n",
-      "duration_ms": 243,
+      "stderr": "[W][2026-06-01T18:03:29+0000][87] logParams():313 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files\n[W][2026-06-01T18:03:29+0000][87] logParams():323 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files\n",
+      "duration_ms": 420,
       "memory_peak_kb": 0
     }
   ]
@@ -192,7 +192,7 @@ Status Code: 200
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:20 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:32 GMT",
   "Content-Length": "814"
 }
 Response Body (JSON):
@@ -201,15 +201,15 @@ Response Body (JSON):
   "build": {
     "status": "ok",
     "stdout": "",
-    "stderr": "[W][2026-06-01T17:44:19+0000][73] logParams():313 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files\n[W][2026-06-01T17:44:19+0000][73] logParams():323 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files\n",
-    "duration_ms": 1656
+    "stderr": "[W][2026-06-01T18:03:29+0000][89] logParams():313 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files\n[W][2026-06-01T18:03:29+0000][89] logParams():323 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files\n",
+    "duration_ms": 2555
   },
   "tests": [
     {
       "status": "accepted",
       "stdout": "Hello, World!\n",
-      "stderr": "[W][2026-06-01T17:44:20+0000][79] logParams():313 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files\n[W][2026-06-01T17:44:20+0000][79] logParams():323 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files\n",
-      "duration_ms": 37,
+      "stderr": "[W][2026-06-01T18:03:32+0000][95] logParams():313 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files\n[W][2026-06-01T18:03:32+0000][95] logParams():323 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files\n",
+      "duration_ms": 68,
       "memory_peak_kb": 0
     }
   ]
@@ -240,7 +240,7 @@ Status Code: 400
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:20 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:32 GMT",
   "Content-Length": "80"
 }
 Response Body (JSON):
@@ -274,7 +274,7 @@ Status Code: 400
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:20 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:32 GMT",
   "Content-Length": "76"
 }
 Response Body (JSON):
@@ -309,7 +309,7 @@ Status Code: 400
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:20 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:32 GMT",
   "Content-Length": "76"
 }
 Response Body (JSON):
@@ -544,7 +544,7 @@ Status Code: 400
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:20 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:32 GMT",
   "Content-Length": "67"
 }
 Response Body (JSON):
@@ -584,7 +584,7 @@ Status Code: 400
 Response Headers:
 {
   "Content-Type": "application/json",
-  "Date": "Mon, 01 Jun 2026 17:44:21 GMT",
+  "Date": "Mon, 01 Jun 2026 18:03:32 GMT",
   "Content-Length": "93"
 }
 Response Body (JSON):
